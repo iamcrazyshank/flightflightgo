@@ -1,17 +1,20 @@
 import React from 'react';
-import logo from './assets/flight2go-logo.png';
 import './App.css';
-
+import {APP_NAME, FOOTER_TEXT } from './utils/types'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Flight Flight Go
-        </p>
-        
-      </header>
+    <div className="app">
+      <div className="header">
+        <img src = {require ('./assets/flight2go-logo.png')} />
+        <h2>{ APP_NAME }</h2>
+      </div>
+      <div className="app-content">
+        Your will have routes here that will render your components as required
+      </div>
+
+      <div className="footer">
+        {FOOTER_TEXT}
+      </div>
     </div>
   );
 }

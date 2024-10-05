@@ -1,7 +1,0 @@
-// tslint.json
-{
-    "extends": [
-      "tslint:latest",
-      "tslint-config-prettier"
-    ]
-  }
