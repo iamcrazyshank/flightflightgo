@@ -4,10 +4,11 @@
   height: 100%;
   }
   .app-content {
-    overflow: auto;
     background-color: rgb(218, 217, 217);
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 200vh;
+
   }
 
 .header {
@@ -23,14 +24,28 @@
 .header img {
   width: 60px;
   height: 60px;
+  animation: rotate 12s infinite linear;
+
 }
-
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .footer {
-  background-color: rgb(154, 178, 247);
-  margin-top: auto;
+  display: flex;
   position: sticky;
-
-  right: 0;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px 5px;
+  z-index: 10000;
+  background-color: rgb(154, 178, 247);
   bottom: 0;
 }
 
