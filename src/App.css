@@ -1,42 +1,37 @@
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 .app {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+  width: 100%;
+  height: 100%;
+  }
+  .app-content {
+    overflow: auto;
+    background-color: rgb(218, 217, 217);
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
 .header {
   display: flex;
+  position: sticky;
   flex-direction: column;
   align-items: center;
-  max-height: 40vh;
   top: 0;
   padding: 15px 5px;
   background-color: rgb(154, 178, 247)
 }
+
 .header img {
   width: 60px;
   height: 60px;
 }
 
 .footer {
-  padding: 15px 5px;
   background-color: rgb(154, 178, 247);
   margin-top: auto;
+  position: sticky;
+
   right: 0;
   bottom: 0;
 }
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
