@@ -9,3 +9,4 @@ React Personal Project
 - Event triggers using Event Emitters
 
 
+![alt text](<Screenshot 2024-10-06 at 12.45.57 p.m..png>)
