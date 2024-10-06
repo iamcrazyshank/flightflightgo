@@ -6,28 +6,6 @@ import FlightMap from './components/flightMap';
 import 'leaflet/dist/leaflet.css';
 
 function App() {
-  
-  const [token, setToken] = useState<Dimensions>();
-  
-  
-  useEffect(() => {
-   
-  //   async function fetchImageSize() {    console.log(e.detail)
-
-  //     try {
-  //       const dimensions = await getImageSize('./assets/my-world.png');
-  //       console.log(dimensions);
-  //       setToken(dimensions)
-  //     } catch (error) {
-  //       console.error(error);
-  //     }
-  //   }
-  //   if (!token) {
-  //     fetchImageSize();
-  // }
-  }, []);
-
-
   return (
     <div className="app">
       <div className="header">
